@@ -1,6 +1,6 @@
 # Cloudwatch Synthetics Workshop
 
-## Lab1: API Canary
+## Lab1: Heartbeat Canary
 
 ## Lab2: Exploring Results
 

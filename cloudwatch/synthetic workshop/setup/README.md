@@ -1,10 +1,4 @@
-# Cloudwatch Synthetics Workshop
-
-## Introduction
-
-You can use Amazon CloudWatch Synthetics to create canaries - configurable scripts that run on a schedule - to monitor your endpoints and APIs. Canaries check the availability and latency of your endpoints and can store load time data and screenshots of the UI as rendered by a headless Chromium browser. They monitor your REST APIs, URLs, and website content, and they can check for unauthorized changes from phishing, code injection and cross-site scripting. They can even check to see if a percentage of a web page has changed from a baseline that you establish.
-
-## Setup
+# Setup
 
 Before we start with the lab, we need to setup few couple of things. First we are going to setup a static website using S3.
 1. Download the static webpage from here.

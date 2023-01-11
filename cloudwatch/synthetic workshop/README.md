@@ -36,14 +36,15 @@ Before we start with the lab, we need to setup few couple of things. First we ar
             ]
         }
     ]
-}
+   }
    ```
-   ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
+  
+ ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
 
 
 3. Upload the static webpage to the S3 bucket
    - Copy the S3 public endpoint URL for index.html page under the "Bucket website endpoint"   
-   ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
+  ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
 
 4. Paste the end point URL in your browser. If you have setup everything correctly, you should see webpage render in the browser.
 

@@ -9,3 +9,11 @@ AWS provides native monitoring, logging, alarming, and dashboards with Amazon Cl
 
 
 ## [Cloudwatch Synthetics](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
+
+## [Container Insights]()
+
+## [Lambda Insights]()
+
+## [Contributor Insights]()
+
+## [Application Insights]()

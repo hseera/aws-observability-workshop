@@ -36,7 +36,7 @@ Before we start with the lab, we need to setup few couple of things. First we ar
             ]
         }
     ]
-}
+   }
    ```
    ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
 

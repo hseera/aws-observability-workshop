@@ -2,12 +2,6 @@
 
 ## Introduction
 
-AWS. When deployed together, they provide the 3 pillars (Metric, Logs & Traces) of an observability solution. The whole AWS Observability ecosystem looks like this.
-
-![image](https://user-images.githubusercontent.com/59352356/211727325-3d42f3fd-3a8d-419d-ada3-3f829f7f6770.png)
-
-For our workshop, we are going to focus on Cloudwatch Synthetics services. 
-
 You can use Amazon CloudWatch Synthetics to create canaries - configurable scripts that run on a schedule - to monitor your endpoints and APIs. Canaries check the availability and latency of your endpoints and can store load time data and screenshots of the UI as rendered by a headless Chromium browser. They monitor your REST APIs, URLs, and website content, and they can check for unauthorized changes from phishing, code injection and cross-site scripting. They can even check to see if a percentage of a web page has changed from a baseline that you establish.
 
 ## Setup
@@ -15,10 +9,19 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 Before we start with the lab, we need to setup few things. 
 1. First we are going to setup a static website using S3.
    - Download the static webpage from here    
-2. Log into your AWS Account and Create an S3 bucket
+2. Log into your AWS Account and Create an S3 bucket. 
+   - Let call the S3 bucket "observability-workshop-{yourname}"
+   - Select your residence region (i.e. ap-southeast-2)
+   - Untick "Block all public access". For workshop purpose we want to access the webpage. Also make sure to tick the acknolwedge option for making S3 access public.  Note after the workshop we will disable this option and delete the bucket.  
+   ![image](https://user-images.githubusercontent.com/59352356/211769377-bb725844-487b-4f7d-84ba-7ea660425822.png)
+![image](https://user-images.githubusercontent.com/59352356/211769499-b78b80fa-dbd8-4e33-bbba-7dbe1745c20c.png)
+![image](https://user-images.githubusercontent.com/59352356/211769811-01e15772-d27e-4984-a321-77b70d386fe5.png)
+   - Once bucket is created, go to bucket property and enable the "Static website hosting" property. By defalut it is disabled. Also select "Host a static website" and give your home page a name. In this case we will name it "index.html"
+   ![image](https://user-images.githubusercontent.com/59352356/211771765-24f9dabb-d0ca-492a-bc08-44ae823039fd.png)
+![image](https://user-images.githubusercontent.com/59352356/211771960-5ecf352b-6143-49c7-b48a-40718d1b35ff.png)
+
 3. Upload the static webpage to the S3 bucket
-   - Make sure the webpage is publically accessable. We are going to be hitting the webpage endpoint as part of our workshop.
-   - Copy the S3 public endpoint URL
+   - Copy the S3 public endpoint URL for index.html page
 4. Paste the end point URL in your browser. If you have setup everything correctly, you should see the following message in the browser.
 
 ## Lab1: Heartbeat Canary

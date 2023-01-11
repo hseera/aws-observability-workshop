@@ -13,9 +13,13 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 ## Setup
 
 Before we start with the lab, we need to setup few things. 
-1: First we are going to setup a static website using S3.
-   -
-2
+1. First we are going to setup a static website using S3.
+   - Download the static webpage from here    
+2. Log into your AWS Account and Create an S3 bucket
+3. Upload the static webpage to the S3 bucket
+   - Make sure the webpage is publically accessable. We are going to be hitting the webpage endpoint as part of our workshop.
+   - Copy the S3 public endpoint URL
+4. Paste the end point URL in your browser. If you have setup everything correctly, you should see the following message in the browser.
 
 ## Lab1: Heartbeat Canary
 

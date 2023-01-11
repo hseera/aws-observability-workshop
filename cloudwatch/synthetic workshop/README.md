@@ -19,10 +19,33 @@ Before we start with the lab, we need to setup few things.
    - Once bucket is created, go to bucket property and enable the "Static website hosting" property. By defalut it is disabled. Also select "Host a static website" and give your home page a name. In this case we will name it "index.html"
    ![image](https://user-images.githubusercontent.com/59352356/211771765-24f9dabb-d0ca-492a-bc08-44ae823039fd.png)
 ![image](https://user-images.githubusercontent.com/59352356/211771960-5ecf352b-6143-49c7-b48a-40718d1b35ff.png)
+   - Next step is to add "Bucket policy" to enable the index.html to be accessable. In the "Bucket Policy Editor" we add the following code. Replace * in the the code with your bucket resource name.
+   ```
+   {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+}
+   ```
+   ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
+
 
 3. Upload the static webpage to the S3 bucket
-   - Copy the S3 public endpoint URL for index.html page
-4. Paste the end point URL in your browser. If you have setup everything correctly, you should see the following message in the browser.
+   - Copy the S3 public endpoint URL for index.html page under the "Bucket website endpoint"   
+   ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
+
+4. Paste the end point URL in your browser. If you have setup everything correctly, you should see webpage render in the browser.
 
 ## Lab1: Heartbeat Canary
 

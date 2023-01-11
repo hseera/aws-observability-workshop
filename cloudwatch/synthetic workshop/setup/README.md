@@ -46,13 +46,3 @@ Before we start with the lab, we need to setup few couple of things. First we ar
    ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
 
 4. Paste the end point URL in your browser. If you have setup everything correctly, you should see webpage render in the browser.
-
-## Lab1: Heartbeat Canary
-
-## Lab2: Exploring Results
-
-## Lab3: Canary Alarms
-
-## Lab4: API Canary
-
-## Lab5: Cleaning Up

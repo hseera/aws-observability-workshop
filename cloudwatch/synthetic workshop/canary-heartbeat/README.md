@@ -1,42 +1,33 @@
 # Setup
 
-Before we start with the lab, we need to setup few couple of things. First we are going to setup a static website using S3.
-1. Download the static webpage from here.
-   - [link](https://github.com/hseera/aws-observability-workshop/blob/main/common/static-heartbeat-canary/index.html)
-2. Log into your AWS Account and Create an S3 bucket. 
-   - Let call the S3 bucket "observability-workshop-{yourname}"
-   - Select your residence region (i.e. ap-southeast-2)
-   - Untick "Block all public access". For workshop purpose we want to access the webpage. Also make sure to tick the acknolwedge option for making S3 access public.  Note after the workshop we will disable this option and delete the bucket.  
-   ![image](https://user-images.githubusercontent.com/59352356/211769377-bb725844-487b-4f7d-84ba-7ea660425822.png)
-![image](https://user-images.githubusercontent.com/59352356/211769499-b78b80fa-dbd8-4e33-bbba-7dbe1745c20c.png)
-![image](https://user-images.githubusercontent.com/59352356/211769811-01e15772-d27e-4984-a321-77b70d386fe5.png)
-   - Once bucket is created, go to bucket property and enable the "Static website hosting" property. By defalut it is disabled. Also select "Host a static website" and give your home page a name. In this case we will name it "index.html"
-   ![image](https://user-images.githubusercontent.com/59352356/211771765-24f9dabb-d0ca-492a-bc08-44ae823039fd.png)
-![image](https://user-images.githubusercontent.com/59352356/211771960-5ecf352b-6143-49c7-b48a-40718d1b35ff.png)
-   - Next step is to add "Bucket policy" to enable the index.html to be accessable. In the "Bucket Policy Editor" we add the following code. Replace * in the the code with your bucket resource name.
-   ```
-   {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": [
-                "s3:GetObject"
-            ],
-            "Resource": [
-                "arn:aws:s3:::Bucket-Name/*"
-            ]
-        }
-    ]
-   }
-   ```
-   ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
+Now that we have done the setup, this lab will walk you through on how to setup a heartbeat canary.
 
+1. Navigate to CloudWatch and select "Synthetics Canaries" option
+   
+   ![image](https://user-images.githubusercontent.com/59352356/213642385-b2f280b0-84e8-48f0-9b07-522965f0e392.png)
 
-3. Upload the static webpage to the S3 bucket
-   - Copy the S3 public endpoint URL for index.html page under the "Bucket website endpoint"   
-   ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
+2. Click on the "Create Canary" button![image](https://user-images.githubusercontent.com/59352356/213642849-b871568d-265b-4c7d-872b-d0be31162c8e.png)
 
-4. Paste the end point URL in your browser. If you have setup everything correctly, you should see webpage render in the browser.
+3. Select "Use a blueprint" option and Blueprint type as "Heartbeat monitoring"  ![image](https://user-images.githubusercontent.com/59352356/213643751-83b04890-3a2c-4a25-b83d-e728b63fc31b.png)
+
+4. Under Canary option, give a name to your hearbeat canary test. Let's call it "{firstname}-canary". And add the end point to the static website we created in the setup lab.
+   
+   ![image](https://user-images.githubusercontent.com/59352356/213644225-89e0bce0-eb2f-486b-b3a4-d5c3b31fb1da.png)
+
+5. Leave the Script editor option as it is.
+6. In the Schedule section let's change the run frequency of the canary to be 1min. This is will give enough data points to visualize the result 
+
+   ![image](https://user-images.githubusercontent.com/59352356/213644509-496c2218-7117-4ccd-8891-86005fe7931a.png)
+
+7. Leave data retention to default value.
+
+   ![image](https://user-images.githubusercontent.com/59352356/213644690-a58e64df-db30-416b-8f22-29d3b1b31b26.png)
+
+8. Leave data storage option empty and select "Create a new role" under access permissions.
+
+   ![image](https://user-images.githubusercontent.com/59352356/213648086-88c30a32-b28d-4159-8855-61f0c68276e4.png)
+
+9. Leave all other options as it is and click "Create canary".
+
+   ![image](https://user-images.githubusercontent.com/59352356/213648225-110573a8-ef36-49f4-9120-2e10b587b890.png)
+

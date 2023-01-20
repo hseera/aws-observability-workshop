@@ -6,7 +6,7 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 
 ## [Setup](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/setup/README.md)
 
-## [Lab1: Heartbeat Canary]()
+## [Lab1: Heartbeat Canary](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-heartbeat/README.md)
 
 ## [Lab2: Exploring Results]()
 

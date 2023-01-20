@@ -13,7 +13,7 @@ Before we start with the lab, we need to setup few couple of things. First we ar
    - Once bucket is created, go to bucket properties and enable the "Static website hosting" property. By defalut it is disabled. Also select "Host a static website" and give your home page a name. In this case we will name it "index.html"
    ![image](https://user-images.githubusercontent.com/59352356/211771765-24f9dabb-d0ca-492a-bc08-44ae823039fd.png)
 ![image](https://user-images.githubusercontent.com/59352356/211771960-5ecf352b-6143-49c7-b48a-40718d1b35ff.png)
-   - Next step is to add "Bucket policy" to enable the index.html to be accessable. In the "Bucket Policy Editor" we add the following code. Replace * in the the code with your bucket resource name.
+   - Next step is to add "Bucket policy" to enable the index.html to be accessable. In the "Bucket Policy Editor", under bucket Permissions we add the following code. Replace * in the the code with your bucket resource name.
    ```
    {
     "Version": "2012-10-17",

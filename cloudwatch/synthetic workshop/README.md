@@ -1,4 +1,4 @@
-# Cloudwatch Synthetics Workshop
+# Cloudwatch Synthetics - Heartbeat Canary Workshop
 
 ## Introduction
 
@@ -12,6 +12,4 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 
 ## [Lab3: Canary Alarms]()
 
-## [Lab4: API Canary]()
-
-## [Lab5: Cleaning Up]()
+## [Lab4: Cleaning Up]()

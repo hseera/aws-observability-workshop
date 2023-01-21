@@ -12,7 +12,7 @@ Now that we have done the setup, this lab will walk you through on how to setup 
 
 4. Under Canary option, give a name to your hearbeat canary test. Let's call it "{firstname}-canary". And add the end point to the static website we created in the setup lab.
    
-   ![image](https://user-images.githubusercontent.com/59352356/213644225-89e0bce0-eb2f-486b-b3a4-d5c3b31fb1da.png)
+   ![image](https://user-images.githubusercontent.com/59352356/213858891-159a440b-e43b-46b4-8899-36920104779a.png)
 
 5. Leave the Script editor option as it is.
 6. In the Schedule section let's change the run frequency of the canary to be 1min. This is will give enough data points to visualize the result 
@@ -25,9 +25,10 @@ Now that we have done the setup, this lab will walk you through on how to setup 
 
 8. Leave data storage option empty and select "Create a new role" under access permissions.
 
-   ![image](https://user-images.githubusercontent.com/59352356/213648086-88c30a32-b28d-4159-8855-61f0c68276e4.png)
+   ![image](https://user-images.githubusercontent.com/59352356/213858960-e4fa4879-5514-4645-9801-035f5a01f6fb.png)
 
-9. Leave all other options as it is and click "Create canary".
+9. Leave all other options as is and click "Create canary". If successful, you will see "Canaries" page with your canary listed in the list.
 
-   ![image](https://user-images.githubusercontent.com/59352356/213648225-110573a8-ef36-49f4-9120-2e10b587b890.png)
+   ![image](https://user-images.githubusercontent.com/59352356/213859049-cc0b87c8-25b6-4fbf-b72e-0e8f85e1e4bc.png)
 
+Congrats, you have successfully created your first heartbeart canary in AWS. In next lab, we will look at the monitoring.

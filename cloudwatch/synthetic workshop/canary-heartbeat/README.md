@@ -1,4 +1,4 @@
-# Setup
+# Create Heartbeat Canary
 
 Now that we have done the setup, this lab will walk you through on how to setup a heartbeat canary.
 

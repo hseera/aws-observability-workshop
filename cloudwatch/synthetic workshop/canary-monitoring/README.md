@@ -28,7 +28,7 @@ Now that we have created the heartbeat canary, this lab will walk you through al
    -  The Tags tab - displays the tags associated with the canary.
  
  ## Availability tab
- ![image](https://user-images.githubusercontent.com/59352356/213904608-04bd334f-8baa-4c7c-b126-bd392864cf42.png)
+ ![image](https://user-images.githubusercontent.com/59352356/213904862-4c096480-55a8-4cf9-ac17-98c269a791bd.png)
 
 ###   Steps
    ![image](https://user-images.githubusercontent.com/59352356/213904624-5e8d5aa5-cadf-4c89-af0b-349dafdfc492.png)

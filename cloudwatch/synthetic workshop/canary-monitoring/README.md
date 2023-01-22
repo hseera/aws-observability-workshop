@@ -1,34 +1,56 @@
-# Create Heartbeat Canary
+# Monitor Canary
 
-Now that we have done the setup, this lab will walk you through on how to setup a heartbeat canary.
+Now that we have created the heartbeat canary, this lab will walk you through all the components of monitoring your canary.
 
-1. Navigate to CloudWatch and select "Synthetics Canaries" option
+1. On the Canary window, you will see a few details about canaries. In the details about the canaries that you have created:
+   -  Status visually shows how many of your canaries have passed their most recent runs.
+   -  Groups displays the groups you have created, and displays how many of them have failing or alarming canaries.
+   -  Slowest performers displays the group and the Region with the slowest-performing canaries.
+
+   ![image](https://user-images.githubusercontent.com/59352356/213904517-d5e78058-ff82-4afc-a5b8-f6d7ecb8cfa6.png)
+
+
+2. Select the syntetic canary you have just created.
+
+   ![image](https://user-images.githubusercontent.com/59352356/213904247-fe03baf0-f25c-4f5e-859b-c34805ee5cc1.png)
+
+3. On the Canary page, you will see a few details and multiple tabs.
+
+   ![image](https://user-images.githubusercontent.com/59352356/213904280-2ba99304-b087-480a-b87d-8f34f2fd6f6d.png)
+
+   -  Summary - 
+   -  The Availability tab - displays information about the recent runs of this canary.
+      -  Under Canary runs - you can choose one of the lines to see details about that run.
+      -  The Steps tab - displays a list of the canary's steps, each step's status, failure reason, URL after step execution, screenshots, and duration of step execution. If the canary has active tracing enabled, you can also choose Traces to see tracing information from the canary's runs.
+   -  The Monitoring tab - displays graphs of the CloudWatch metrics published by this canary.
+   -  The Configuration tab - displays configuration and schedule information about the canary.
+   -  The Groups tab - displays the groups that this canary is associated with, if any.
+   -  The Tags tab - displays the tags associated with the canary.
+ 
+ ## Availability tab
+ ![image](https://user-images.githubusercontent.com/59352356/213904608-04bd334f-8baa-4c7c-b126-bd392864cf42.png)
+
+###   Steps
+   ![image](https://user-images.githubusercontent.com/59352356/213904624-5e8d5aa5-cadf-4c89-af0b-349dafdfc492.png)
+###   Screenshots
+   ![image](https://user-images.githubusercontent.com/59352356/213904643-4b2d8f9e-c2c4-42a4-b8ac-dae0872978a5.png)
+###   Logs
+   ![image](https://user-images.githubusercontent.com/59352356/213904655-8b0a8cef-f4ba-4757-947e-eb021e462922.png)
+###   HAR
+   ![image](https://user-images.githubusercontent.com/59352356/213904665-b687aae0-4e13-42ee-8df4-d01ca213fe60.png)
+
+
+## Monitoring tab
+   ![image](https://user-images.githubusercontent.com/59352356/213904688-ee9ba227-d29d-4040-87d9-06aa56de54ed.png)
+
+## Configuration tab
+   ![image](https://user-images.githubusercontent.com/59352356/213904735-7dd8081a-4c66-4c7c-a0f2-af87c1b90943.png)
+
+## Groups tab
+   ![image](https://user-images.githubusercontent.com/59352356/213904778-fc5e0d02-fddf-46e5-a08f-c4a768dcdc2a.png)
    
-   ![image](https://user-images.githubusercontent.com/59352356/213642385-b2f280b0-84e8-48f0-9b07-522965f0e392.png)
+## Tag tab
+   ![image](https://user-images.githubusercontent.com/59352356/213904805-0f9cf604-ed92-4267-b0f5-ffe7d6427341.png)
 
-2. Click on the "Create Canary" button![image](https://user-images.githubusercontent.com/59352356/213642849-b871568d-265b-4c7d-872b-d0be31162c8e.png)
 
-3. Select "Use a blueprint" option and Blueprint type as "Heartbeat monitoring"  ![image](https://user-images.githubusercontent.com/59352356/213643751-83b04890-3a2c-4a25-b83d-e728b63fc31b.png)
 
-4. Under Canary option, give a name to your hearbeat canary test. Let's call it "{firstname}-canary". And add the end point to the static website we created in the setup lab.
-   
-   ![image](https://user-images.githubusercontent.com/59352356/213858891-159a440b-e43b-46b4-8899-36920104779a.png)
-
-5. Leave the Script editor option as it is.
-6. In the Schedule section let's change the run frequency of the canary to be 1min. This is will give enough data points to visualize the result 
-
-   ![image](https://user-images.githubusercontent.com/59352356/213644509-496c2218-7117-4ccd-8891-86005fe7931a.png)
-
-7. Leave data retention to default value.
-
-   ![image](https://user-images.githubusercontent.com/59352356/213644690-a58e64df-db30-416b-8f22-29d3b1b31b26.png)
-
-8. Leave data storage option empty and select "Create a new role" under access permissions.
-
-   ![image](https://user-images.githubusercontent.com/59352356/213858960-e4fa4879-5514-4645-9801-035f5a01f6fb.png)
-
-9. Leave all other options as is and click "Create canary". If successful, you will see "Canaries" page with your canary listed in the list.
-
-   ![image](https://user-images.githubusercontent.com/59352356/213859049-cc0b87c8-25b6-4fbf-b72e-0e8f85e1e4bc.png)
-
-Congrats, you have successfully created your first heartbeart canary in AWS. In next lab, we will look at the monitoring.

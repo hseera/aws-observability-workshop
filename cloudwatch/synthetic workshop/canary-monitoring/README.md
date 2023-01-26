@@ -65,7 +65,7 @@ Now that we have created the heartbeat canary, this lab will walk you through al
    
    ![image](https://user-images.githubusercontent.com/59352356/213905028-465c88fe-cc0b-4ab9-9aed-04b994e2b2b2.png)
 
-
+5. Let's unblock the S3 bucket so that in next lab, we want to test our canary alarm.
 
 
 

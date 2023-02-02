@@ -7,10 +7,10 @@ A heartbeat canary checks a webpage/URL and will consider the check successful i
    
    ![image](https://user-images.githubusercontent.com/59352356/213642385-b2f280b0-84e8-48f0-9b07-522965f0e392.png)
 
-2. Click on the "Create Canary" button
+2. Click on the **"Create Canary"** button
    ![image](https://user-images.githubusercontent.com/59352356/213642849-b871568d-265b-4c7d-872b-d0be31162c8e.png)
 
-3. Select "Use a blueprint" option and Blueprint type as **"Heartbeat monitoring"**  
+3. Select **"Use a blueprint"** option and Blueprint type as **"Heartbeat monitoring"**  
    ![image](https://user-images.githubusercontent.com/59352356/213643751-83b04890-3a2c-4a25-b83d-e728b63fc31b.png)
 
 4. Under Canary option, give a name to your hearbeat canary test. Let's call it "{firstname}-canary". And add the end point to the static website we created in the setup lab.

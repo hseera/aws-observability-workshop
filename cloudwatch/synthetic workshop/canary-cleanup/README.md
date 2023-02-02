@@ -1,4 +1,4 @@
-# Synthetic Cleanup
+# Cleanup
 
 ## Canary Cleanup
 1. Navigate to Synthetics Canaries page

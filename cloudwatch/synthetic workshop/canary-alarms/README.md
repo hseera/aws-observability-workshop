@@ -70,9 +70,12 @@ In this lab:
 
    ![image](https://user-images.githubusercontent.com/59352356/213904946-6b86f67b-c7b0-4a0d-9faa-2970bdc6e7e6.png)
    
-   
    ![image](https://user-images.githubusercontent.com/59352356/213904966-49a7177c-9d7f-469e-9d98-d4e8ac1b24b4.png)
+ - Here is an sample example of an email received when alarm is triggered.
    
+   ![image](https://user-images.githubusercontent.com/59352356/216478075-54d8b8f6-cefa-471d-a135-03d3ebdfea48.png)
+
+
   
 
 

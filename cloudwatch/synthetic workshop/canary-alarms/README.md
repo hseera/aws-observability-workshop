@@ -63,6 +63,7 @@ In this lab:
   ![image](https://user-images.githubusercontent.com/59352356/214965344-0b99c25b-d520-4406-84f5-1c65b2cacb95.png)
   
 14. Check your email to confirm the subscription. Once confirmed you will see the following message.
+  - **Check your spam folder for the email if you do not see in the inbox.**
 
 15. You will receive an email the next time the alarm is triggered. 
   - To test it, let's disable access to the S3 bucket so we can't access the website, or you can update the script's end point to point to an invalid address. Let us now keep an eye on our canary.

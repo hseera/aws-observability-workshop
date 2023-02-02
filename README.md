@@ -1,8 +1,5 @@
 # AWS Observability Workshop
 
-## Observability Introduction
-
-
 ## AWS Observability
 AWS provides native monitoring, logging, alarming, and dashboards with Amazon CloudWatch and tracing through AWS X-Ray . When deployed together, they provide the 3 pillars (Metric, Logs & Traces) of an observability solution. The whole AWS Observability ecosystem looks like this.
 
@@ -10,4 +7,5 @@ AWS provides native monitoring, logging, alarming, and dashboards with Amazon Cl
 
 
 
-### [CloudWatch Synthetics](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
+## [1. CloudWatch Synthetics](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
+CloudWatch Synthetics is an orchestration service, which offers synthetic monitoring to continuously verify customer-facing performance. 

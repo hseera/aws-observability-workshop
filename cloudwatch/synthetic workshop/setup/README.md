@@ -40,3 +40,5 @@ Before we start with the lab, we need to setup few couple of things. First we ar
       ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
 
 4. Paste the end point URL in your browser. If you have setup everything correctly, you should see webpage render in the browser.
+
+Now that we are done with the setup, let's move on to create a [heartbeat canary](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-heartbeat/README.md)

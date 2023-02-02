@@ -14,7 +14,7 @@ In this lab:
 
 1. From the the AWS CloudWatch console, select Synthetics Canaries, and choose the canary you created in the first lab. Click on the Actions->Edit option.
 
-  ![image](https://user-images.githubusercontent.com/59352356/214961598-d2eada15-df8c-42b7-a9bd-2d475715e8b4.png)
+  ![image](https://user-images.githubusercontent.com/59352356/216474997-982c051d-60d1-432d-8829-c8454a27d067.png)
 
 2. Scroll to the CloudWatch Alarms section and expand it.
 
@@ -31,14 +31,14 @@ In this lab:
 
 5. Next you need to define the notification channel for the alarm. In this example we will create a new SNS topic.
 6. Click save to save the canary.
-7. From the the AWS CloudWatch console, select Alarms and choose **"All Alarms"** option. This will show all existing alarms.
+7. From the the AWS CloudWatch console, select Alarms and choose **"All alarms"** option. This will show all existing alarms.
   
-  ![image](https://user-images.githubusercontent.com/59352356/214963378-da615046-1271-4ccc-9a83-72cbd55cdea0.png)
-  
+  ![image](https://user-images.githubusercontent.com/59352356/216475236-333cd6f0-ab13-4598-95fa-7340eb30ff50.png)
+
 8. Select the alarm you just created, and click on Actions -> Edit
   
-  ![image](https://user-images.githubusercontent.com/59352356/214963565-5cfc9797-29eb-4417-a3c8-af8bb2da930e.png)
-  
+  ![image](https://user-images.githubusercontent.com/59352356/216475335-5252a837-0344-43b4-bacf-c4567f18f7d1.png)
+
 9. Leave the first page as is and click on Next button
   
   ![image](https://user-images.githubusercontent.com/59352356/214963723-0f177151-4e3b-4114-a3a2-7a40caae1d3e.png)

@@ -12,6 +12,7 @@
 
 ## SNS Cleanup
 1. Navigate to SNS page
+   
    ![image](https://user-images.githubusercontent.com/59352356/216470456-b6d9e4e7-e80e-401a-bf52-7a6d9f0d7ec7.png)
 2. Select **"Topics"** heading under the Amazon SNS
 3. Select the topic you created in the lab and click on the **"Delete"** button

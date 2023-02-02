@@ -12,7 +12,7 @@ In this lab:
   - We will also create an SNS topic as part of the alarm creation, but you can also use an existing SNS topic.
   - Finally we will create a situation that will trigger the alarm.
 
-1. From the the AWS CloudWatch console, select Synthetics Canaries, and choose the canary you created in the first lab. Click on the edit option.
+1. From the the AWS CloudWatch console, select Synthetics Canaries, and choose the canary you created in the first lab. Click on the Action -> Edit option.
 
   ![image](https://user-images.githubusercontent.com/59352356/214961598-d2eada15-df8c-42b7-a9bd-2d475715e8b4.png)
 

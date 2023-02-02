@@ -31,11 +31,11 @@ In this lab:
 
 5. Next you need to define the notification channel for the alarm. In this example we will create a new SNS topic.
 6. Click save to save the canary.
-7. From the the AWS CloudWatch console, select Alarms and choose "All Alarms" option. This will show all existing alarms.
+7. From the the AWS CloudWatch console, select Alarms and choose **"All Alarms"** option. This will show all existing alarms.
   
   ![image](https://user-images.githubusercontent.com/59352356/214963378-da615046-1271-4ccc-9a83-72cbd55cdea0.png)
   
-8. Select the alarm you just created, and click on Action -> Edit
+8. Select the alarm you just created, and click on Actions -> Edit
   
   ![image](https://user-images.githubusercontent.com/59352356/214963565-5cfc9797-29eb-4417-a3c8-af8bb2da930e.png)
   
@@ -50,7 +50,7 @@ In this lab:
   
   ![image](https://user-images.githubusercontent.com/59352356/214964555-3bde4d4c-5251-49dd-9075-413641f9f93d.png)
   
-11. Click on "Create topic" to create an sns notification.
+11. Click on **"Create topic"** to create an sns notification.
   
   ![image](https://user-images.githubusercontent.com/59352356/214965094-856cfb93-4b08-4864-b67a-e8ce133ae57e.png)
   

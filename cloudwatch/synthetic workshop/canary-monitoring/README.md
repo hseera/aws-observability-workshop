@@ -53,5 +53,5 @@ Now that we have created the heartbeat canary, this lab will walk you through al
    ![image](https://user-images.githubusercontent.com/59352356/213904805-0f9cf604-ed92-4267-b0f5-ffe7d6427341.png)
 
 
-
+In next lab, we are going to setup an [alarm](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-alarms/README.md).
 

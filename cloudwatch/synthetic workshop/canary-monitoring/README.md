@@ -18,7 +18,6 @@ Now that we have created the heartbeat canary, this lab will walk you through al
 
    ![image](https://user-images.githubusercontent.com/59352356/213904280-2ba99304-b087-480a-b87d-8f34f2fd6f6d.png)
 
-   -  Summary - 
    -  The Availability tab - displays information about the recent runs of this canary.
       -  Under Canary runs - you can choose one of the lines to see details about that run.
       -  The Steps tab - displays a list of the canary's steps, each step's status, failure reason, URL after step execution, screenshots, and duration of step execution. If the canary has active tracing enabled, you can also choose Traces to see tracing information from the canary's runs.

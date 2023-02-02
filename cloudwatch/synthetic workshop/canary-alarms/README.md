@@ -16,7 +16,7 @@ In this lab:
 
   ![image](https://user-images.githubusercontent.com/59352356/214961598-d2eada15-df8c-42b7-a9bd-2d475715e8b4.png)
 
-2. Scroll tyo the CloudWatch Alarms section and expand it.
+2. Scroll to the CloudWatch Alarms section and expand it.
 
   ![image](https://user-images.githubusercontent.com/59352356/214961960-2c5862cf-d5a2-444a-b4eb-32502a6f255c.png)
 
@@ -64,7 +64,7 @@ In this lab:
   
 14. Check your email to confirm the subscription. Once confirmed you will see the following message.
 
-15. When the alarm is triggered next time, you will receive an email. To test it, let's block access to the S3 bucket so that we can not access the website or you can update the end point in the script to point to an invalid address. Once done, let's now monitor our canary.
+15. You will receive an email the next time the alarm is triggered. To test it, let's disable access to the S3 bucket so we can't access the website, or you can update the script's end point to point to an invalid address. Let us now keep an eye on our canary.
 
    ![image](https://user-images.githubusercontent.com/59352356/213904946-6b86f67b-c7b0-4a0d-9faa-2970bdc6e7e6.png)
    

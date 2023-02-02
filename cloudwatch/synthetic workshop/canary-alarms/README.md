@@ -64,7 +64,8 @@ In this lab:
   
 14. Check your email to confirm the subscription. Once confirmed you will see the following message.
 
-15. You will receive an email the next time the alarm is triggered. To test it, let's disable access to the S3 bucket so we can't access the website, or you can update the script's end point to point to an invalid address. Let us now keep an eye on our canary.
+15. You will receive an email the next time the alarm is triggered. 
+  - To test it, let's disable access to the S3 bucket so we can't access the website, or you can update the script's end point to point to an invalid address. Let us now keep an eye on our canary.
 
    ![image](https://user-images.githubusercontent.com/59352356/213904946-6b86f67b-c7b0-4a0d-9faa-2970bdc6e7e6.png)
    

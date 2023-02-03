@@ -7,5 +7,5 @@ AWS provides native monitoring, logging, alarming, and dashboards with Amazon Cl
 
 
 
-## [1. CloudWatch Synthetics](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
+## [1. CloudWatch Synthetics Workshop](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
 CloudWatch Synthetics is an orchestration service, which offers synthetic monitoring to continuously verify customer-facing performance. 

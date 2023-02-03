@@ -10,9 +10,13 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 ## [Prerequisite](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/setup/README.md)
 Prerequisite for learning the heartbeat canary. AWS S3 service will be used to host a static website that will be used in the labs for learning the AWS Sythnetics service.
 ## [Lab1: Heartbeat Canary](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-heartbeat/README.md)
+In this lab, we will learn to create a heartbeat canary that will check the availability of our static website.
 
 ## [Lab2: Exploring Results](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-monitoring/README.md)
+In this lab, we will explore the monitoring option that comes with the Synthetics.
 
 ## [Lab3: Canary Alarms](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-alarms/README.md)
+In this lab, we create and alarm and trigger it when availability threshold is breached.
 
 ## [Cleaning Up](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-cleanup/README.md)
+Finally, clean up all the resource that were created as part of the workshop.

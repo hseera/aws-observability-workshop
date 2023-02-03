@@ -15,4 +15,4 @@ You can use Amazon CloudWatch Synthetics to create canaries - configurable scrip
 
 ## [Lab3: Canary Alarms](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-alarms/README.md)
 
-## [Lab4: Cleaning Up](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-cleanup/README.md)
+## [Cleaning Up](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/canary-cleanup/README.md)

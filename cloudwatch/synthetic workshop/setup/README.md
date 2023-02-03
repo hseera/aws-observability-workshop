@@ -35,7 +35,9 @@ Before we start with the lab, we need to setup few couple of things. First we ar
       ![image](https://user-images.githubusercontent.com/59352356/211775465-b72dc80d-0093-4c28-ac18-c4dfc32e30cc.png)
 
 
-3. Upload the static webpage to the S3 bucket
+3. Upload the static webpage to the S3 bucket. Once uploaded, the file structure will look like this:
+   ![image](https://user-images.githubusercontent.com/59352356/216502323-9f86deaa-1403-4ea4-91e2-9dd872b64218.png)
+
    - Copy the S3 public endpoint URL for index.html page under the **"Bucket website endpoint"**   
       ![image](https://user-images.githubusercontent.com/59352356/211775819-402f5873-3d7b-4ee5-8de9-14568cd9ae28.png)
 

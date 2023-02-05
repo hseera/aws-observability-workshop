@@ -3,7 +3,7 @@
 Now that we have done the setup, this lab will walk you through on how to setup a heartbeat canary. In this lab we will create a heartbeat canary from the blueprint.
 A heartbeat canary checks a webpage/URL and will consider the check successful if a URL returns an http status code of 2xx.
 
-1. Navigate to CloudWatch and select **"Synthetics Canaries"** option
+1. Navigate to CloudWatch - Application Monitoring and select **"Synthetics Canaries"** option
    
    ![image](https://user-images.githubusercontent.com/59352356/213642385-b2f280b0-84e8-48f0-9b07-522965f0e392.png)
 

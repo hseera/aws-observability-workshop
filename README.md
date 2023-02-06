@@ -9,10 +9,10 @@ AWS provides native monitoring, logging, alarming, and dashboards with Amazon Cl
 ## [1. CloudWatch Synthetics Workshop](https://github.com/hseera/aws-observability-workshop/blob/main/cloudwatch/synthetic%20workshop/README.md)
 CloudWatch Synthetics is an orchestration service, which offers synthetic monitoring to continuously verify application or services performance and availability.
 
-This workshop is designed to provide you with an environment and step by step guide to help you learn on how to use AWS Synthetics service. In this workshop you will learn:
+This workshop is designed to provide you with an environment and step by step guide to help you learn on how to use AWS Synthetics service. In this workshop you will learn to:
   1.  Create a synthentic heartbeat canary using blueprint
-  2.  How to explore canary result and getting comfortable monitoring it
-  3.  Set up an alarm when canary doesn't meet the availability requirement
+  2.  Explore canary result and getting comfortable monitoring it
+  3.  Setup and trigger a canary alarm when availability requirement is not met
 
 
 ### Getting Started

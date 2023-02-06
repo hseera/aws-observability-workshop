@@ -1,6 +1,6 @@
 # Setup
 
-Before we start with the lab, we need to setup few couple of things. First we are going to setup a static website using S3.
+Before we start with the lab, we need to setup couple of things. First we are going to setup a static website using S3.
 1. Download the static webpage from here.
    - [link](https://github.com/hseera/aws-observability-workshop/blob/main/common/static-heartbeat-canary/workshop.zip)
 2. Log into your AWS Account and Create an S3 bucket. 

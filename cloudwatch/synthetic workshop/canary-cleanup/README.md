@@ -22,3 +22,4 @@
 5. Go to **"Subscription"** heading under the Amazon SNS and similarly delete the subscription.
 
 ## S3 Cleanup
+1. Go to S3 and delete the static website bucket.
